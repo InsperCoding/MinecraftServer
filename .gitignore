@@ -1,0 +1,23 @@
+# Cache dirs
+bundler
+cache
+libraries
+logs
+versions
+
+# Default files, no need to send
+.console_history
+banned-ips.json
+banned-players.json
+commands.yml
+help.yml
+ops.json
+permissions.yml
+version_history.json
+whitelist.json
+
+# Remapped Plugins Jars for PaperMC
+plugins/.paper-remapped
+
+# Local database
+*.db
